@@ -1,0 +1,13 @@
+email:
+  sender: "your@gmail.com"
+  password: "your-app-password"
+  recipient: "recipient@example.com"
+  subject: "Automated Daily Report"
+
+report:
+  output_path: "reports/daily_report.pdf"
+
+data:
+  source_type: "csv" # csv or api
+  csv_path: "data/sample_data.csv"
+  api_url: "https://api.example.com/sales"
